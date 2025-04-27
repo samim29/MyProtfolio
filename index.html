@@ -1,0 +1,135 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <title>Portfolio</title>
+  </head>
+  <body>
+    <nav class="navbar navbar-expand-lg navbar-light fixed-top">
+        <div class="container-fluid">
+          <div class="w-50"><a class="navbar-brand fw-bolder" href="#">Sk Samim Ali</a></div>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon "></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+            <div class="navbar-nav w-100 d-flex justify-content-between">
+              <a class="nav-link active" aria-current="page" href="#">Home</a>
+              <a class="nav-link" href="#about">About</a>
+              <a class="nav-link" href="#projects">Projects</a>
+              <a class="nav-link" href="#skills">Skills</a>
+              <a class="nav-link" href="#contact">Contact</a>
+            
+            </div>
+          </div>
+        </div>
+      </nav>
+      <!--About section-->
+    <section class="about-section " >
+        <div class="about-container d-flex justify-content-center align-item-center" id="about">
+            <div class="about-content-heading mt-5 p-5 me-2 ">
+                <h1>Hi, I am Sk Samim Ali</h1>
+                <h4>I'm a Web Developer | MERN Stack Enthusiast</h4>
+                <h3>About Me</h3>
+                <p>
+                    Hi, I'm a <strong>B.Tech student specializing in CSE (AI & ML)</strong> at <strong>MAKAUT University</strong>.<br>
+                    I bring ideas to life through <strong>clean, creative, and efficient code</strong>.<br>
+                    With a passion for <strong>full-stack development</strong> and <strong>continuous learning</strong>,<br>
+                    I strive to build experiences that are as <strong>functional</strong> as they are <strong>delightful</strong>.<br>
+                    Let's build something <strong>extraordinary</strong> together!
+                  </p>
+                  
+                <a href="#projects"><button type="button" class="btn btn-primary p-3 py-2 m-1">View Projects</button></a>
+                <a href="assets\Sk Samim  Ali_Resume.pdf" download="assets\Sk Samim  Ali_Resume.pdf"><button type="button" class="btn btn-primary active px-3 py-2 m-1">Download Resume</button></a>
+            </div>
+            <div class="about mt-5 p-5 "> 
+                <img src="images\profile-pic.png"class="floating" alt="MY Image">
+                
+            </div>
+        </div>
+        
+    </section>
+
+    <!--Skills Section-->
+    <section class="skills-section">
+      <div class="sills-container mt-5" id="skills">
+          <h3>Skills</h3>
+          <div class="skills-icon-container d-flex flex-wrap justify-content-around mt-5">
+              <i class="fa-brands fa-html5" style="color: #E34F26;"></i>
+              <i class="fa-brands fa-css3-alt" style="color: #1572B6;"></i>
+              <i class="fa-brands fa-js" style="color: #F7DF1E;"></i>
+              <i class="fa-brands fa-react" style="color: #61DAFB;"></i>
+              <i class="fa-brands fa-node" style="color: #339933;"></i>
+              <i class="fa-solid fa-database" style="color: #4DB33D;"></i>
+              <i class="fa-brands fa-java" style="color: #007396;"></i>
+              <i class="fa-brands fa-python" style="color: #3776AB;"></i>
+              <i class="fa-brands fa-github" style="color: #ffffff;"></i>
+              <i class="fa-brands fa-bootstrap" style="color: #7952B3;"></i>
+          </div>
+      </div>
+  </section>
+    
+    <!--Projects section-->
+    <section class="project-section" id="projects">
+        <h3>Projects</h3>
+        <div class="project-container mt-3 d-flex flex-wrap justify-content-evenly">
+            <div class="card" style="width: 18rem;">
+                <img src="images\wanderlust.png" class="card-img-top" alt="Wander Lust">
+                <div class="card-body">
+                  <h5 class="card-title">Wander Lust – Full-Stack Travel Stay Platform</h5>
+                  <p class="card-text">Full-stack travel booking app with listing ownership, Unsplash integration, and dynamic checkout.</p>
+                  <a href="https://github.com/samim29/wanderLust" class="btn btn-primary me-2">Code</a>
+                  <a href="https://wanderlust-production-cdfc.up.railway.app/listings" class="btn btn-primary">Live Demo</a>
+                </div>
+            </div>
+            <div class="card  overflow-hidden" style="width: 18rem;">
+              <img src="images\amazon.png" class="card-img-top " alt="Wander Lust">
+              <div class="card-body">
+                <h5 class="card-title">Amazon Home Page Clone</h5>
+                <p class="card-text">Front-end Amazon homepage clone with responsive design and interactive features.</p>
+                <a href="https://github.com/samim29/amazoneClone" class="btn btn-primary me-2">Code</a>
+                <a href="https://amazone-clone-gray.vercel.app/" class="btn btn-primary">Live Demo</a>
+              </div>
+          </div>
+          <div class="card  overflow-hidden" style="width: 18rem;">
+            <img src="images\spotify.png" class="card-img-top " alt="Wander Lust">
+            <div class="card-body">
+              <h5 class="card-title">Spotify Home Page Clone</h5>
+              <p class="card-text">Front-end Spotify homepage clone with responsive design and interactive features.</p>
+              <a href="https://github.com/samim29/Spotify-Clone" class="btn btn-primary me-2">Code</a>
+              <a href="https://spotify-clone-nine-indol.vercel.app/" class="btn btn-primary">Live Demo</a>
+            </div>
+        </div>
+        </div>
+    </section>
+
+    <!--Footer-->
+    <footer class="footer-section" id="contact">
+      <div class="footer-container ">
+        <div class="contact mt-5 p-3 d-flex flex-column justify-content-center align-items-center">
+          <p><i class="fa-solid fa-envelope"></i> <a href="samimalisk000@gmail.com" >samimalisk000@gmail.com</a></p>
+          <p><i class="fa-solid fa-phone"></i> <a href="tel:+917501563483">+91 7501563483</a></p>
+          <p> 
+            <a href="https://www.linkedin.com/in/sk-samim-ali/"><i class="fa-brands fa-linkedin socials"></i></a>&nbsp;&nbsp;
+            <a href="https://github.com/samim29"><i class="fa-brands fa-github socials"></i></a>
+          </p>
+
+
+        </div>
+        <div class="tc mt-2 d-flex flex-column justify-content-center align-items-center">
+          <p><i class="fa-regular fa-copyright"></i> 2025 Sk Samim Ali</p>
+        </div>
+      </div>
+    </footer>
+    <!-- Option 1: Bootstrap Bundle with Popper -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+
+   
+  </body>
+</html>
