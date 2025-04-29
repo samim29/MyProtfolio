@@ -146,3 +146,110 @@ html {
     color: beige;
     font-size: 21px;
 }
+
+
+/* ---------- Responsive Design ---------- */
+
+/* Small devices (phones, <576px) */
+@media (max-width: 576px) {
+    .about-container {
+      flex-direction: column !important;
+      text-align: center;
+      padding: 1rem;
+    }
+  
+    .about img {
+      width: 70% !important;
+      margin: auto;
+      display: block;
+    }
+  
+    .about-content-heading {
+      padding: 1rem !important;
+    }
+  
+    .sills-container h3,
+    .project-section h3 {
+      margin-left: 0 !important;
+      text-align: center;
+    }
+  
+    .skills-icon-container {
+      justify-content: center !important;
+    }
+  
+    .skills-icon-container i {
+      font-size: 2.5rem !important;
+      margin: 0.5rem;
+    }
+  
+    .card {
+      width: 90% !important;
+      margin: 1rem auto !important;
+    }
+  
+    .card-title,
+    .card-text {
+      font-size: 0.9rem;
+    }
+  
+    .footer-container {
+      text-align: center;
+      padding: 1rem;
+    }
+  
+    .contact p {
+      font-size: 0.9rem;
+    }
+  
+    .socials {
+      font-size: 1.2rem;
+    }
+  }
+  
+  /* Medium devices (tablets, 577px to 991px) */
+  @media (min-width: 577px) and (max-width: 991px) {
+    .about-container {
+      flex-direction: column !important;
+      align-items: center;
+      text-align: center;
+    }
+  
+    .about img {
+      width: 50% !important;
+    }
+  
+    .sills-container h3,
+    .project-section h3 {
+      margin-left: 0 !important;
+      text-align: center;
+    }
+  
+    .skills-icon-container {
+      justify-content: center;
+    }
+  
+    .skills-icon-container i {
+      font-size: 3rem;
+      margin: 1rem;
+    }
+  
+    .card {
+      width: 90% !important;
+      margin: 1rem auto !important;
+    }
+  }
+  
+  /* Large devices (desktops, >992px) */
+  @media (min-width: 992px) {
+    .about-container {
+      flex-direction: row;
+      justify-content: space-around;
+      align-items: center;
+    }
+  
+    .about img {
+      width: 300px;
+    }
+  }
+  
